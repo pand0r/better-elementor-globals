@@ -35,7 +35,7 @@ add_action('elementor/document/after_save', function ($document) {
 
         if (true === isset($meta['custom_typography']) && false === empty($meta['custom_typography'])) {
             foreach ($meta['custom_typography'] as $index => $custom_typography) {
-                $meta['custom_typography'][$index]['_id'] = sanitize_title($custom_typography['title']);
+                $meta['custom_typography'][$index]['_id'] = str_replace('-', '_', sanitize_title($custom_typography['title']));
             }
         }
 
