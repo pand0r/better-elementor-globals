@@ -18,6 +18,9 @@ The same applies to global custom typographies. For example, '--e-global-typogra
 
 ## Changelog
 
+### 1.0.1
+- Bugfix, added missing str_replace
+
 ### 1.0.0
 - Initial release
 

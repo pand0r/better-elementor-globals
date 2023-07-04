@@ -5,7 +5,7 @@
  * Description: Changes the class names of custom global colors and custom global typographies to a more readable and reusable form.
  * Plugin URI: https://wordpress.org/plugins/better-global-classnames-for-elementor/
  * Author: Patrick Heina
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author URI: https://der-panda.de
  *
  * License: GPL v3
