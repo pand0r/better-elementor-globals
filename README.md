@@ -18,6 +18,9 @@ The same applies to global custom typographies. For example, '--e-global-typogra
 
 ## Changelog
 
+### 1.1.0
+- TBD
+
 ### 1.0.2
 - Renamed Plugin
 

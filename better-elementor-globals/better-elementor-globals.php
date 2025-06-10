@@ -6,7 +6,7 @@ defined('ABSPATH') || exit;
  * Requires Plugins: elementor
  * Description: Changes the variables names of custom global colors and custom global typographies to a more readable and reusable form.
  * Author: Patrick Heina
- * Version: 1.0.1
+ * Version: 1.1.0
  * Author URI: https://der-panda.de
  *
  * License: GPL v3
