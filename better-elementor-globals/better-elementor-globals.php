@@ -44,3 +44,29 @@ add_action('elementor/document/after_save', function ($document) {
     }
     return $document;
 }, 20);
+
+function beg_activate() {
+    $kit_id = get_option('elementor_active_kit');
+    if (empty($kit_id)) {
+        return;
+    }
+
+    $meta = get_post_meta($kit_id, '_elementor_page_settings', true);
+
+    if (true === isset($meta['custom_colors']) && false === empty($meta['custom_colors'])) {
+        foreach ($meta['custom_colors'] as $index => $custom_color) {
+            $meta['custom_colors'][$index]['_id'] = str_replace('-', '_', sanitize_title($custom_color['title']));
+        }
+    }
+
+    if (true === isset($meta['custom_typography']) && false === empty($meta['custom_typography'])) {
+        foreach ($meta['custom_typography'] as $index => $custom_typography) {
+            $meta['custom_typography'][$index]['_id'] = str_replace('-', '_', sanitize_title($custom_typography['title']));
+        }
+    }
+
+    update_post_meta($kit_id, '_elementor_page_settings', $meta);
+    wp_update_post(['ID' => $kit_id]);
+}
+
+register_activation_hook(__FILE__, 'beg_activate');
