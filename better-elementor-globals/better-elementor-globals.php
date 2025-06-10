@@ -2,6 +2,7 @@
 
 /**
  * Plugin Name: Better Elementor Globals
+ * Requires Plugins: elementor
  * Description: Changes the variables names of custom global colors and custom global typographies to a more readable and reusable form.
  * Author: Patrick Heina
  * Version: 1.0.1

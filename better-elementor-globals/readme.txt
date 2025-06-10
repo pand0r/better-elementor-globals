@@ -5,6 +5,7 @@ Requires at least: 5.9
 Tested up to: 6.2
 Stable tag: 1.0.1
 Requires PHP: 7.0
+Requires Plugins: elementor
 License: GPLv3 or Later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
