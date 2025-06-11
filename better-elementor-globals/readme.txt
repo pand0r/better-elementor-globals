@@ -2,7 +2,7 @@
 Contributors: pand0r
 Tags: elementor, elementor addons, elementor global settings, reusability, css variables, css classes, development
 Requires at least: 5.9
-Tested up to: 6.2
+Tested up to: 6.8.1
 Stable tag: 1.1.0
 Requires PHP: 7.0
 Requires Plugins: elementor
