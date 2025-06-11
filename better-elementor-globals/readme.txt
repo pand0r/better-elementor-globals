@@ -28,11 +28,12 @@ The same applies to global custom typographies. For example, '--e-global-typogra
 * Preserved global ID mappings across activations.
 * Updated the license text and "tested up to" information.
 * General code cleanup.
+
 = 1.0.2 =
-Renamed Plugins
+* Renamed Plugins
 
 = 1.0.1 =
-Bugfix: added missing str_replace
+* Bugfix: added missing str_replace
 
 = 1.0.0 =
-initial release
+* initial release
