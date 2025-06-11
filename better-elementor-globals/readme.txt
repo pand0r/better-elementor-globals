@@ -2,9 +2,10 @@
 Contributors: pand0r
 Tags: elementor, elementor addons, elementor global settings, reusability, css variables, css classes, development
 Requires at least: 5.9
-Tested up to: 6.2
-Stable tag: 1.0.1
+Tested up to: 6.8.1
+Stable tag: 1.1.0
 Requires PHP: 7.0
+Requires Plugins: elementor
 License: GPLv3 or Later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -19,11 +20,20 @@ For example, if you have a custom global color called "Testimonial Container" it
 The same applies to global custom typographies. For example, '--e-global-typography-df1337-font-size' becomes '--e-global-typography-eye_catcher-font-size' if the typography is named 'Eye Catcher'.'--e-global-color-ad9560e' in '--e-global-color-testimonial-container'.
 
 == Changelog ==
+= 1.1.0 =
+* Added an ABSPATH guard to prevent direct access.
+* Declared Elementor as a required plugin.
+* Introduced an activation hook renaming global IDs and updating the active kit.
+* Added a deactivation hook restoring original IDs and posts.
+* Preserved global ID mappings across activations.
+* Updated the license text and "tested up to" information.
+* General code cleanup.
+
 = 1.0.2 =
-Renamed Plugins
+* Renamed Plugins
 
 = 1.0.1 =
-Bugfix: added missing str_replace
+* Bugfix: added missing str_replace
 
 = 1.0.0 =
-initial release
+* initial release
