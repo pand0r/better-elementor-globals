@@ -15,11 +15,6 @@ defined('ABSPATH') || exit;
  * This plugin is free software: you can redistribute it and/or modify it under the terms of the
  * GNU General Public License as published by the Free Software Foundation,
  * either version 3 of the License, or any later version.
- *
- * Elementor is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
  */
 
 
@@ -28,8 +23,7 @@ defined('ABSPATH') || exit;
  *
  * @param array $map Array with 'colors' and 'typography' mappings old => new.
  */
-function beg_update_elementor_posts(array $map)
-{
+function beg_update_elementor_posts(array $map) {
     $posts = get_posts([
         'post_type'      => 'any',
         'posts_per_page' => -1,
@@ -69,8 +63,7 @@ function beg_update_elementor_posts(array $map)
  * @param array $map  Mapping array passed by reference.
  * @return array      Sanitized meta.
  */
-function beg_sanitize_kit_meta(array $meta, array &$map)
-{
+function beg_sanitize_kit_meta(array $meta, array &$map) {
     if (!empty($meta['custom_colors'])) {
         foreach ($meta['custom_colors'] as $index => $custom_color) {
             $new_id = str_replace('-', '_', sanitize_title($custom_color['title']));
