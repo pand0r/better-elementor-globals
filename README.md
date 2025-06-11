@@ -19,7 +19,13 @@ The same applies to global custom typographies. For example, '--e-global-typogra
 ## Changelog
 
 ### 1.1.0
-- TBD
+- Added an `ABSPATH` guard to prevent direct access.
+- Declared Elementor as a required plugin.
+- Introduced an activation hook that renames global IDs and updates the active kit.
+- Added a deactivation hook restoring the original IDs and posts.
+- Preserved global ID mappings across activations.
+- Updated the license text and "tested up to" information.
+- General code cleanup.
 
 ### 1.0.2
 - Renamed Plugin
