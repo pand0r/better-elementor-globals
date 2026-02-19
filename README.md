@@ -1,4 +1,4 @@
-# Better Elementor Globals for Elementor
+# Better CSS Globals for Elementor
 
 This plugin changes the class names of the custom global colors and custom global typographies to a more readable form that is more reusable in CSS.
 
@@ -17,6 +17,15 @@ The same applies to global custom typographies. For example, '--e-global-typogra
 3. Activate the plugin through the 'Plugins' screen in WordPress
 
 ## Changelog
+
+### 1.2.0
+- Added a plugin settings page under `Settings -> Better CSS Globals for Elementor`.
+- Added separate toggles for container background class marker and data attribute marker.
+- Added plugin textdomain loading and language files (`.pot`, `de_DE.po`, `de_DE.mo`).
+- Improved performance for Elementor post updates by processing in paged batches and reducing replacement passes.
+- Improved map merge robustness (avoids `array_merge_recursive` nesting issues in stored ID maps).
+- Hardened data handling for invalid/empty kit meta structures.
+- Raised minimum PHP version to 8.1 and modernized internal type declarations for clearer contracts.
 
 ### 1.1.0
 - Added an `ABSPATH` guard to prevent direct access.

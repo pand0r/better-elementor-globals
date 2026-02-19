@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Better CSS Globals for Elementor 1.2.0\n"
+"POT-Creation-Date: 2026-02-19 00:00+0000\n"
+"PO-Revision-Date: 2026-02-19 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: better-elementor-globals\n"
+
+#: better-css-globals-for-elementor.php
+msgid "Better CSS Globals for Elementor"
+msgstr "Better CSS Globals for Elementor"
+
+#: better-css-globals-for-elementor.php
+msgid "Container Background Marker"
+msgstr "Container-Hintergrund-Markierung"
+
+#: better-css-globals-for-elementor.php
+msgid "Adds a CSS class with the global background color ID (e.g. bg-global-blue). Only added when the container background uses a global color."
+msgstr "Fügt eine CSS-Klasse mit der ID der globalen Hintergrundfarbe hinzu (z. B. bg-global-blue). Wird nur gesetzt, wenn der Container-Hintergrund eine globale Farbe verwendet."
+
+#: better-css-globals-for-elementor.php
+msgid "Adds a data attribute with the global background color ID (e.g. data-bg-global=\"blue\"). Only added when the container background uses a global color."
+msgstr "Fügt ein Data-Attribut mit der ID der globalen Hintergrundfarbe hinzu (z. B. data-bg-global=\"blue\"). Wird nur gesetzt, wenn der Container-Hintergrund eine globale Farbe verwendet."
